@@ -744,7 +744,7 @@
 					</div>
 				</div>
 
-				<WorldMap/>
+				<!-- <WorldMap/> !-->
 
 				<div class="col-lg-6">
 					<div class="row row-cards row-deck">
