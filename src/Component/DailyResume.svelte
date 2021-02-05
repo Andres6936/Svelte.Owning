@@ -12,19 +12,23 @@
 
 <div class="card">
     <div class="card-body p-2 text-center">
+
         {#if percentageGrowth >= 0}
+            <!-- Inclusion of positive of daily resume -->
             <div class="text-end text-green">
             <span class="text-green d-inline-flex align-items-center lh-1">
               {percentageGrowth}% <PositiveIndicative/>
             </span>
             </div>
         {:else}
+            <!-- Inclusion of negative of daily resume -->
             <div class="text-end text-red">
             <span class="text-red d-inline-flex align-items-center lh-1">
               {percentageGrowth}% <NegativeIndicative/>
             </span>
             </div>
         {/if}
+
         <div class="h1 m-0">{amountDaily}</div>
         <div class="text-muted mb-3">{titleResume}</div>
     </div>
