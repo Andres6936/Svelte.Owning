@@ -743,18 +743,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
-					<div class="card">
-						<div class="card-body">
-							<h3 class="card-title">Top countries</h3>
-							<div class="ratio ratio-16x9">
-								<div>
-									<WorldMap/>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+
+				<WorldMap/>
+
 				<div class="col-lg-6">
 					<div class="row row-cards row-deck">
 						<div class="col-sm-6">

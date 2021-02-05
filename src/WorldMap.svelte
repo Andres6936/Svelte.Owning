@@ -203,4 +203,15 @@
     // @formatter:off
 </script>
 
-<div id="map-world" class="w-100 h-100"></div>
+<div class="col-lg-6">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">Top countries</h3>
+            <div class="ratio ratio-16x9">
+                <div>
+                    <div id="map-world" class="w-100 h-100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
