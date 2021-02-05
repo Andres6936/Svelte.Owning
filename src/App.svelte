@@ -21,6 +21,8 @@
 	import ComparativeResume from "./Component/ComparativeResume.svelte";
 	import DailyResume from "./Component/DailyResume.svelte";
 	import DollarSign from "./SVG/DollarSign.svelte";
+	import ShoppingCart from "./SVG/ShoppingCart.svelte";
+	import Members from "./SVG/Members.svelte";
 </script>
 
 <div class="page">
@@ -93,15 +95,8 @@
 								<div class="card-body">
 									<div class="row align-items-center">
 										<div class="col-auto">
-                          <span class="bg-green text-white avatar"><svg xmlns="http://www.w3.org/2000/svg" class="icon"
-																		width="24" height="24" viewBox="0 0 24 24"
-																		stroke-width="2" stroke="currentColor"
-																		fill="none" stroke-linecap="round"
-																		stroke-linejoin="round"><path stroke="none"
-																									  d="M0 0h24v24H0z"
-																									  fill="none"/><circle
-								  cx="9" cy="19" r="2"/><circle cx="17" cy="19" r="2"/><path
-								  d="M3 3h2l2 12a3 3 0 0 0 3 2h7a3 3 0 0 0 3 -2l1 -7h-15.2"/></svg>
+                          <span class="bg-green text-white avatar">
+							  <ShoppingCart/>
                           </span>
 										</div>
 										<div class="col">
@@ -121,15 +116,8 @@
 								<div class="card-body">
 									<div class="row align-items-center">
 										<div class="col-auto">
-                          <span class="bg-yellow text-white avatar"><svg xmlns="http://www.w3.org/2000/svg" class="icon"
-																		 width="24" height="24" viewBox="0 0 24 24"
-																		 stroke-width="2" stroke="currentColor"
-																		 fill="none" stroke-linecap="round"
-																		 stroke-linejoin="round"><path stroke="none"
-																									   d="M0 0h24v24H0z"
-																									   fill="none"/><circle
-								  cx="9" cy="7" r="4"/><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"/><path
-								  d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M21 21v-2a4 4 0 0 0 -3 -3.85"/></svg>
+                          <span class="bg-yellow text-white avatar">
+							  <Members/>
                           </span>
 										</div>
 										<div class="col">
