@@ -10,6 +10,7 @@
         <div class="row align-items-center">
             <div class="col-auto">
                   <span class="bg-blue text-white avatar">
+                      <!-- Space for draw a SVG (Icon) -->
                       <slot/>
                   </span>
             </div>
