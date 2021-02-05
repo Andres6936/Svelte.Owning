@@ -93,87 +93,26 @@
 							</DailyResume>
 						</div>
 						<div class="col-12">
-							<div class="card card-sm">
-								<div class="card-body">
-									<div class="row align-items-center">
-										<div class="col-auto">
-                          <span class="bg-green text-white avatar">
-							  <ShoppingCart/>
-                          </span>
-										</div>
-										<div class="col">
-											<div class="font-weight-medium">
-												78 Orders
-											</div>
-											<div class="text-muted">
-												32 shipped
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+							<DailyResume titleResume="78 Orders" growthResume="32 shipped" backgroundColor="bg-green">
+								<ShoppingCart/>
+							</DailyResume>
 						</div>
 						<div class="col-12">
-							<div class="card card-sm">
-								<div class="card-body">
-									<div class="row align-items-center">
-										<div class="col-auto">
-                          <span class="bg-yellow text-white avatar">
-							  <Members/>
-                          </span>
-										</div>
-										<div class="col">
-											<div class="font-weight-medium">
-												1352 Members
-											</div>
-											<div class="text-muted">
-												163 registered today
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+							<DailyResume titleResume="1352 Members" growthResume="163 registered today"
+										 backgroundColor="bg-yellow">
+								<Members/>
+							</DailyResume>
 						</div>
 						<div class="col-12">
-							<div class="card card-sm">
-								<div class="card-body">
-									<div class="row align-items-center">
-										<div class="col-auto">
-                          <span class="bg-twitter text-white avatar">
-							  <Twitter/>
-                          </span>
-										</div>
-										<div class="col">
-											<div class="font-weight-medium">
-												623 Shares
-											</div>
-											<div class="text-muted">
-												16 today
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+							<DailyResume titleResume="623 Shares" growthResume="16 today" backgroundColor="bg-twitter">
+								<Twitter/>
+							</DailyResume>
 						</div>
 						<div class="col-12">
+							<DailyResume titleResume="132 Likes" growthResume="21 today" backgroundColor="bg-facebook">
+								<Facebook/>
+							</DailyResume>
 							<div class="card card-sm">
-								<div class="card-body">
-									<div class="row align-items-center">
-										<div class="col-auto">
-                          <span class="bg-facebook text-white avatar">
-							  <Facebook/>
-                          </span>
-										</div>
-										<div class="col">
-											<div class="font-weight-medium">
-												132 Likes
-											</div>
-											<div class="text-muted">
-												21 today
-											</div>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
