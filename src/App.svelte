@@ -18,7 +18,7 @@
 	import MostVisitedPages from "./MostVisitedPages.svelte";
 	import SocialMediaTraffic from "./SocialMediaTraffic.svelte";
 	import DevelopmentActivity from "./DevelopmentActivity.svelte";
-	import DailyResume from "./Component/DailyResume.svelte";
+	import ComparativeResume from "./Component/ComparativeResume.svelte";
 </script>
 
 <div class="page">
@@ -63,13 +63,13 @@
 							<UIRedesign/>
 						</div>
 						<div class="col-sm-4">
-							<DailyResume titleResume="New Tickets" amountDaily="43" percentageGrowth="6"/>
+							<ComparativeResume titleResume="New Tickets" amountDaily="43" percentageGrowth="6"/>
 						</div>
 						<div class="col-sm-4">
-							<DailyResume titleResume="Daily Earnings" amountDaily="95" percentageGrowth="-2"/>
+							<ComparativeResume titleResume="Daily Earnings" amountDaily="95" percentageGrowth="-2"/>
 						</div>
 						<div class="col-sm-4">
-							<DailyResume titleResume="New Replies" amountDaily="7" percentageGrowth="9"/>
+							<ComparativeResume titleResume="New Replies" amountDaily="7" percentageGrowth="9"/>
 						</div>
 					</div>
 				</div>
