@@ -1,30 +1,30 @@
 <script>
-    import Task from "./Task.svelte";
-    import Sales from './Sales.svelte';
-    import Header from './Header.svelte';
-    import Footer from "./Footer.svelte";
-    import Revenue from "./Revenue.svelte";
-    import Invoices from "./Invoices.svelte";
-    import PageTitle from './PageTitle.svelte';
-    import Navigation from './Navigation.svelte';
-    import NewClients from './NewClients.svelte';
-    import NewWebsite from "./NewWebsite.svelte";
-    import UIRedesign from "./UIRedesign.svelte";
-    import ActiveUsers from './ActiveUsers.svelte';
-    import UsingStorage from "./UsingStorage.svelte";
-    import NewReport from "./Modal/NewReport.svelte";
-    import RegisterEvents from "./RegisterEvents.svelte";
-    import TrafficSummary from "./TrafficSummary.svelte";
-    import MostVisitedPages from "./MostVisitedPages.svelte";
-    import SocialMediaTraffic from "./SocialMediaTraffic.svelte";
-    import DevelopmentActivity from "./DevelopmentActivity.svelte";
-    import ComparativeResume from "./Component/ComparativeResume.svelte";
-    import DailyResume from "./Component/DailyResume.svelte";
-    import DollarSign from "./SVG/DollarSign.svelte";
-    import ShoppingCart from "./SVG/ShoppingCart.svelte";
-    import Members from "./SVG/Members.svelte";
-    import Twitter from "./SVG/Twitter.svelte";
-    import Facebook from "./SVG/Facebook.svelte";
+    import Task from "../Task.svelte";
+    import Sales from '../Sales.svelte';
+    import Header from '../Header.svelte';
+    import Footer from "../Footer.svelte";
+    import Revenue from "../Revenue.svelte";
+    import Invoices from "../Invoices.svelte";
+    import PageTitle from '../PageTitle.svelte';
+    import Navigation from '../Navigation.svelte';
+    import NewClients from '../NewClients.svelte';
+    import NewWebsite from "../NewWebsite.svelte";
+    import UIRedesign from "../UIRedesign.svelte";
+    import ActiveUsers from '../ActiveUsers.svelte';
+    import UsingStorage from "../UsingStorage.svelte";
+    import NewReport from "../Modal/NewReport.svelte";
+    import RegisterEvents from "../RegisterEvents.svelte";
+    import TrafficSummary from "../TrafficSummary.svelte";
+    import MostVisitedPages from "../MostVisitedPages.svelte";
+    import SocialMediaTraffic from "../SocialMediaTraffic.svelte";
+    import DevelopmentActivity from "../DevelopmentActivity.svelte";
+    import ComparativeResume from "../Component/ComparativeResume.svelte";
+    import DailyResume from "../Component/DailyResume.svelte";
+    import DollarSign from "../SVG/DollarSign.svelte";
+    import ShoppingCart from "../SVG/ShoppingCart.svelte";
+    import Members from "../SVG/Members.svelte";
+    import Twitter from "../SVG/Twitter.svelte";
+    import Facebook from "../SVG/Facebook.svelte";
 </script>
 
 <div class="page">
