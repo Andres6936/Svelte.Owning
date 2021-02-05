@@ -1,5 +1,7 @@
 <script>
 	// @formatter:off
+	import TrafficSummary from "./TrafficSummary.svelte";
+
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('chart-revenue-bg'), {
 			chart: {
@@ -573,51 +575,7 @@
 					<ActiveUsers/>
 				</div>
 				<div class="col-lg-6">
-					<div class="row row-cards">
-						<div class="col-12">
-							<div class="card">
-								<div class="card-body">
-									<h3 class="card-title">Traffic summary</h3>
-									<div id="chart-mentions" class="chart-lg"></div>
-								</div>
-							</div>
-						</div>
-						<div class="col-12">
-							<div class="card">
-								<div class="card-body">
-									<p class="mb-3">Using Storage <strong>6854.45 MB </strong>of 8 GB</p>
-									<div class="progress progress-separated mb-3">
-										<div class="progress-bar bg-primary" role="progressbar"
-											 style="width: 44%"></div>
-										<div class="progress-bar bg-info" role="progressbar" style="width: 19%"></div>
-										<div class="progress-bar bg-success" role="progressbar" style="width: 9%"></div>
-									</div>
-									<div class="row">
-										<div class="col-auto d-flex align-items-center pe-2">
-											<span class="legend me-2 bg-primary"></span>
-											<span>Regular</span>
-											<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-muted">915MB</span>
-										</div>
-										<div class="col-auto d-flex align-items-center px-2">
-											<span class="legend me-2 bg-info"></span>
-											<span>System</span>
-											<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-muted">415MB</span>
-										</div>
-										<div class="col-auto d-flex align-items-center px-2">
-											<span class="legend me-2 bg-success"></span>
-											<span>Shared</span>
-											<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-muted">201MB</span>
-										</div>
-										<div class="col-auto d-flex align-items-center ps-2">
-											<span class="legend me-2"></span>
-											<span>Free</span>
-											<span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-muted">612MB</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					<TrafficSummary/>
 				</div>
 
 				<!-- <WorldMap/> !-->
