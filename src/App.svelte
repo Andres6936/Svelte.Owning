@@ -66,21 +66,7 @@
 							<DailyResume titleResume="New Tickets" amountDaily="43" percentageGrowth="6"/>
 						</div>
 						<div class="col-sm-4">
-							<div class="card">
-								<div class="card-body p-2 text-center">
-									<div class="text-end text-red">
-                        <span class="text-red d-inline-flex align-items-center lh-1">
-                          -2% <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1" width="24" height="24"
-								   viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-								   stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
-																						fill="none"/><polyline
-								points="3 7 9 13 13 9 21 17"/><polyline points="21 10 21 17 14 17"/></svg>
-                        </span>
-									</div>
-									<div class="h1 m-0">95</div>
-									<div class="text-muted mb-3">Daily Earnings</div>
-								</div>
-							</div>
+							<DailyResume titleResume="Daily Earnings" amountDaily="95" percentageGrowth="-2"/>
 						</div>
 						<div class="col-sm-4">
 							<div class="card">
