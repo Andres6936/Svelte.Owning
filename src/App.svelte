@@ -1,6 +1,5 @@
 <script>
 	// @formatter:off
-	import TrafficSummary from "./TrafficSummary.svelte";
 
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('chart-revenue-bg'), {
@@ -561,6 +560,7 @@
 	import UsingStorage from "./UsingStorage.svelte";
 	import NewReport from "./Modal/NewReport.svelte";
 	import RegisterEvents from "./RegisterEvents.svelte";
+	import TrafficSummary from "./TrafficSummary.svelte";
 	import MostVisitedPages from "./MostVisitedPages.svelte";
 	import SocialMediaTraffic from "./SocialMediaTraffic.svelte";
 	import DevelopmentActivity from "./DevelopmentActivity.svelte";
