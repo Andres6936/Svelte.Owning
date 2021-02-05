@@ -546,24 +546,24 @@
 	});
 	// @formatter:on
 
+	import Task from "./Task.svelte";
 	import Sales from './Sales.svelte';
 	import Header from './Header.svelte';
+	import Footer from "./Footer.svelte";
 	import Revenue from "./Revenue.svelte";
+	import Invoices from "./Invoices.svelte";
 	import PageTitle from './PageTitle.svelte';
 	import Navigation from './Navigation.svelte';
 	import NewClients from './NewClients.svelte';
-	import ActiveUsers from './ActiveUsers.svelte';
-	import UsingStorage from "./UsingStorage.svelte";
 	import NewWebsite from "./NewWebsite.svelte";
 	import UIRedesign from "./UIRedesign.svelte";
-	import DevelopmentActivity from "./DevelopmentActivity.svelte";
+	import ActiveUsers from './ActiveUsers.svelte';
+	import UsingStorage from "./UsingStorage.svelte";
+	import NewReport from "./Modal/NewReport.svelte";
 	import RegisterEvents from "./RegisterEvents.svelte";
 	import MostVisitedPages from "./MostVisitedPages.svelte";
 	import SocialMediaTraffic from "./SocialMediaTraffic.svelte";
-	import Task from "./Task.svelte";
-	import Invoices from "./Invoices.svelte";
-	import Footer from "./Footer.svelte";
-	import NewReport from "./Modal/NewReport.svelte";
+	import DevelopmentActivity from "./DevelopmentActivity.svelte";
 </script>
 
 <div class="page">
