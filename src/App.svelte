@@ -269,44 +269,6 @@
 	});
 	// @formatter:on
 
-	// @formatter:off
-	document.addEventListener("DOMContentLoaded", function () {
-		window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-activity'), {
-			chart: {
-				type: "radialBar",
-				fontFamily: 'inherit',
-				height: 40,
-				width: 40,
-				animations: {
-					enabled: false
-				},
-				sparkline: {
-					enabled: true
-				},
-			},
-			tooltip: {
-				enabled: false,
-			},
-			plotOptions: {
-				radialBar: {
-					hollow: {
-						margin: 0,
-						size: '75%'
-					},
-					track: {
-						margin: 0
-					},
-					dataLabels: {
-						show: false
-					}
-				}
-			},
-			colors: ["#206bc4"],
-			series: [35],
-		})).render();
-	});
-	// @formatter:on
-
 	import Task from "./Task.svelte";
 	import Sales from './Sales.svelte';
 	import Header from './Header.svelte';
