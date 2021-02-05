@@ -545,7 +545,6 @@
 	// @formatter:on
 
 	import Header from './Header.svelte';
-	import WorldMap from './WorldMap.svelte';
 	import PageTitle from './PageTitle.svelte';
 	import Navigation from './Navigation.svelte';
 </script>
