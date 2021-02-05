@@ -59,8 +59,7 @@
 		})).render();
 	});
 	// @formatter:on
-</script>
-<script>
+
 	// @formatter:off
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('chart-new-clients'), {
@@ -118,8 +117,7 @@
 		})).render();
 	});
 	// @formatter:on
-</script>
-<script>
+
 	// @formatter:off
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('chart-active-users'), {
@@ -179,8 +177,7 @@
 		})).render();
 	});
 	// @formatter:on
-</script>
-<script>
+
 	// @formatter:off
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('chart-mentions'), {
@@ -270,8 +267,7 @@
 		})).render();
 	});
 	// @formatter:on
-</script>
-<script>
+
 	// @formatter:on
 	document.addEventListener("DOMContentLoaded", function () {
 		$('#map-world').vectorMap({
@@ -474,8 +470,7 @@
 		});
 	});
 	// @formatter:off
-</script>
-<script>
+
 	// @formatter:off
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-activity'), {
@@ -513,8 +508,7 @@
 		})).render();
 	});
 	// @formatter:on
-</script>
-<script>
+
 	// @formatter:off
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('chart-development-activity'), {
@@ -578,8 +572,7 @@
 		})).render();
 	});
 	// @formatter:on
-</script>
-<script>
+
 	// @formatter:off
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-1'), {
@@ -608,8 +601,7 @@
 		})).render();
 	});
 	// @formatter:on
-</script>
-<script>
+
 	// @formatter:off
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-2'), {
@@ -638,8 +630,7 @@
 		})).render();
 	});
 	// @formatter:on
-</script>
-<script>
+
 	// @formatter:off
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-3'), {
@@ -668,8 +659,7 @@
 		})).render();
 	});
 	// @formatter:on
-</script>
-<script>
+
 	// @formatter:off
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-4'), {
@@ -698,8 +688,7 @@
 		})).render();
 	});
 	// @formatter:on
-</script>
-<script>
+
 	// @formatter:off
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-5'), {
@@ -728,8 +717,7 @@
 		})).render();
 	});
 	// @formatter:on
-</script>
-<script>
+
 	// @formatter:off
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-6'), {
@@ -758,9 +746,7 @@
 		})).render();
 	});
 	// @formatter:on
-</script>
 
-<script>
 	import Header from './Header.svelte';
 	import PageTitle from './PageTitle.svelte';
 	import Navigation from './Navigation.svelte';
