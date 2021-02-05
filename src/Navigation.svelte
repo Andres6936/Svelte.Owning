@@ -43,7 +43,7 @@
                         <div class="dropdown-menu">
                             <div class="dropdown-menu-columns">
                                 <div class="dropdown-menu-column">
-                                    <a class="dropdown-item" href="./empty.html">
+                                    <a class="dropdown-item" href="empty">
                                         Empty page
                                     </a>
                                     <a class="dropdown-item" href="./accordion.html">
