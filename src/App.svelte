@@ -553,6 +553,7 @@
 	import Navigation from './Navigation.svelte';
 	import NewClients from './NewClients.svelte';
 	import ActiveUsers from './ActiveUsers.svelte';
+	import UsingStorage from "./UsingStorage.svelte";
 </script>
 
 <div class="page">
@@ -575,7 +576,15 @@
 					<ActiveUsers/>
 				</div>
 				<div class="col-lg-6">
-					<TrafficSummary/>
+					<div class="row row-cards">
+						<div class="col-12">
+							<TrafficSummary/>
+						</div>
+						<div class="col-12">
+							<UsingStorage/>
+						</div>
+					</div>
+
 				</div>
 
 				<!-- <WorldMap/> !-->
