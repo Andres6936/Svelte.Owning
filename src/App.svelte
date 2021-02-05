@@ -1,8 +1,4 @@
 <script>
-	export let name;
-</script>
-
-<script>
 	// @formatter:off
 	document.addEventListener("DOMContentLoaded", function () {
 		window.ApexCharts && (new ApexCharts(document.getElementById('chart-revenue-bg'), {
