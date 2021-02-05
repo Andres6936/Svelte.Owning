@@ -20,7 +20,7 @@
 	import DevelopmentActivity from "./DevelopmentActivity.svelte";
 	import ComparativeResume from "./Component/ComparativeResume.svelte";
 	import DailyResume from "./Component/DailyResume.svelte";
-	import DolarSign from "./SVG/DolarSign.svelte";
+	import DollarSign from "./SVG/DollarSign.svelte";
 </script>
 
 <div class="page">
@@ -85,7 +85,7 @@
 					<div class="row row-cards">
 						<div class="col-12">
 							<DailyResume titleResume="132 Sales" growthResume="12 waiting payments">
-								<DolarSign/>
+								<DollarSign/>
 							</DailyResume>
 						</div>
 						<div class="col-12">
