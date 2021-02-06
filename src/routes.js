@@ -99,6 +99,7 @@ export const routes = [
     {
         name: 'modals',
         component: Modals,
+        layout: DashboardLayout,
     },
     {
         name: 'maps',
@@ -115,6 +116,7 @@ export const routes = [
     {
         name: 'navigation',
         component: Navigation,
+        layout: DashboardLayout,
     },
     {
         name: 'charts',
@@ -148,6 +150,7 @@ export const routes = [
     {
         name: 'lists',
         component: Lists,
+        layout: DashboardLayout,
     },
     {
         name: 'typography',
@@ -156,10 +159,12 @@ export const routes = [
     {
         name: 'page-headers',
         component: PageHeaders,
+        layout: DashboardLayout,
     },
     {
         name: 'markdown',
         component: Markdown,
+        layout: DashboardLayout,
     },
     {
         name: 'sign-in',
@@ -232,6 +237,7 @@ export const routes = [
     {
         name: 'music',
         component: Music,
+        layout: DashboardLayout,
     },
     {
         name: 'widgets',
