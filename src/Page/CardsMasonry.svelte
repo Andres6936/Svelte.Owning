@@ -13,7 +13,8 @@
             </div>
         </div>
     </div>
-    <div class="row row-cards" data-masonry='{"percentPosition": true }'>
+    <!--    <div class="row row-cards" data-masonry='{"percentPosition": true }'>-->
+    <div class="row row-cards" data-masonry='"percentPosition": true'>
         <div class="col-sm-6 col-lg-4">
             <div class="card">
                 <div class="card-body">
