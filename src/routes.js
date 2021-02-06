@@ -261,4 +261,28 @@ export const routes = [
         name: 'layout-navbar-sticky',
         component: Empty,
     },
+    {
+        name: 'layout-navbar-overlap',
+        component: Empty,
+    },
+    {
+        name: 'layout-dark',
+        component: Empty,
+    },
+    {
+        name: 'layout-rtl',
+        component: Empty,
+    },
+    {
+        name: 'layout-fluid',
+        component: Empty,
+    },
+    {
+        name: 'layout-fluid-vertical',
+        component: Empty,
+    },
+    {
+        name: 'docs/index',
+        component: Empty,
+    },
 ];
