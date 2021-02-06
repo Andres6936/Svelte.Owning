@@ -1,14 +1,14 @@
 <script>
-    import google from 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCL-BY8-sq12m0S9H-S_yMqDmcun3A9znw';
+    // import google from 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCL-BY8-sq12m0S9H-S_yMqDmcun3A9znw';
 
     // @formatter:off
-    let map;
-    document.addEventListener("DOMContentLoaded", function () {
-        map = new google.maps.Map(document.getElementById("map-google"), {
-            center: {lat: -34.397, lng: 150.644},
-            zoom: 8,
-        });
-    });
+    // let map;
+    // document.addEventListener("DOMContentLoaded", function () {
+    //     map = new google.maps.Map(document.getElementById("map-google"), {
+    //         center: {lat: -34.397, lng: 150.644},
+    //         zoom: 8,
+    //     });
+    // });
     // @formatter:on
 </script>
 
