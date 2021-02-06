@@ -44,10 +44,13 @@ import SearchResults from './Page/SearchResults.svelte';
 import Tabs from './Page/Tabs.svelte';
 import Wizard from './Page/Wizard.svelte';
 
+import DashboardLayout from './Layout/DashboardLayout.svelte';
+
 export const routes = [
     {
         name: '/',
         component: Index,
+        layout: DashboardLayout,
     },
     {
         name: 'empty',
