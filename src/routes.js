@@ -53,4 +53,140 @@ export const routes = [
         name: 'empty',
         component: Empty,
     },
+    {
+        name: 'accordion',
+        component: Empty,
+    },
+    {
+        name: 'blank',
+        component: Empty,
+    },
+    {
+        name: 'buttons',
+        component: Empty,
+    },
+    {
+        name: 'cards',
+        component: Empty,
+    },
+    {
+        name: 'cards-masonry',
+        component: Empty,
+    },
+    {
+        name: 'colors',
+        component: Empty,
+    },
+    {
+        name: 'dropdowns',
+        component: Empty,
+    },
+    {
+        name: 'icons',
+        component: Empty,
+    },
+    {
+        name: 'modals',
+        component: Empty,
+    },
+    {
+        name: 'maps',
+        component: Empty,
+    },
+    {
+        name: 'maps-fullsize',
+        component: Empty,
+    },
+    {
+        name: 'maps-vector',
+        component: Empty,
+    },
+    {
+        name: 'navigation',
+        component: Empty,
+    },
+    {
+        name: 'charts',
+        component: Empty,
+    },
+    {
+        name: 'charts-heatmap',
+        component: Empty,
+    },
+    {
+        name: 'pagination',
+        component: Empty,
+    },
+    {
+        name: 'skeleton',
+        component: Empty,
+    },
+    {
+        name: 'tabs',
+        component: Empty,
+    },
+    {
+        name: 'tables',
+        component: Empty,
+    },
+    {
+        name: 'carousel',
+        component: Empty,
+    },
+    {
+        name: 'lists',
+        component: Empty,
+    },
+    {
+        name: 'typography',
+        component: Empty,
+    },
+    {
+        name: 'page-headers',
+        component: Empty,
+    },
+    {
+        name: 'markdown',
+        component: Empty,
+    },
+    {
+        name: 'sign-in',
+        component: Empty,
+    },
+    {
+        name: 'sign-up',
+        component: Empty,
+    },
+    {
+        name: 'forgot-password',
+        component: Empty,
+    },
+    {
+        name: 'terms-of-service',
+        component: Empty,
+    },
+    {
+        name: 'auth-lock',
+        component: Empty,
+    },
+    {
+        name: 'error-404',
+        component: Empty,
+    },
+    {
+        name: 'error-500',
+        component: Empty,
+    },
+    {
+        name: 'error-maintenance',
+        component: Empty,
+    },
+    {
+        name: 'form-elements',
+        component: Empty,
+    },
+    {
+        name: 'activity',
+        component: Empty,
+    },
 ];
