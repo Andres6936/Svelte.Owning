@@ -81,8 +81,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-tasks-overview'), {
@@ -146,8 +145,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks'), {
@@ -214,8 +212,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks2'), {
@@ -276,8 +273,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks3'), {
@@ -345,8 +341,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks4'), {
@@ -407,8 +402,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks5'), {
@@ -469,8 +463,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks6'), {
@@ -538,8 +531,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks7'), {
@@ -600,8 +592,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks8'), {
@@ -671,8 +662,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks9'), {
@@ -743,8 +733,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks10'), {
@@ -815,8 +804,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-completion-tasks11'), {
@@ -888,8 +876,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-total-sales'), {
@@ -922,8 +909,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-tasks'), {
@@ -993,8 +979,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-line-stroke'), {
@@ -1058,8 +1043,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-stepline'), {
@@ -1108,8 +1092,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-temperature'), {
@@ -1176,8 +1159,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-area'), {
@@ -1245,8 +1227,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-area-spline'), {
@@ -1314,8 +1295,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-area-spline-stacked'), {
@@ -1384,8 +1364,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-spline'), {
@@ -1446,8 +1425,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-scatter'), {
@@ -1503,8 +1481,7 @@
         })).render();
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         window.ApexCharts && (new ApexCharts(document.getElementById('chart-combination'), {
