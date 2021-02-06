@@ -10,8 +10,7 @@
         });
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         mapboxgl.accessToken = 'pk.eyJ1IjoiY29kZWNhbG0iLCJhIjoiSzRiOVJvQSJ9.BUVkTT6IYs83xSUs4H7bjQ';
@@ -23,8 +22,7 @@
         });
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         mapboxgl.accessToken = 'pk.eyJ1IjoiY29kZWNhbG0iLCJhIjoiSzRiOVJvQSJ9.BUVkTT6IYs83xSUs4H7bjQ';
@@ -42,8 +40,7 @@
         new mapboxgl.Marker({color: "#206bc4"}).setLngLat([-77, 38.883333]).addTo(map);
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     document.addEventListener("DOMContentLoaded", function () {
         mapboxgl.accessToken = 'pk.eyJ1IjoiY29kZWNhbG0iLCJhIjoiSzRiOVJvQSJ9.BUVkTT6IYs83xSUs4H7bjQ';

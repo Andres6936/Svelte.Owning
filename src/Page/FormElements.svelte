@@ -10,8 +10,7 @@
         }
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     noUiSlider.create(document.getElementById('range-connect'), {
         start: [60, 90],
@@ -23,8 +22,7 @@
         }
     });
     // @formatter:on
-</script>
-<script>
+
     // @formatter:off
     noUiSlider.create(document.getElementById('range-color'), {
         start: 40,
@@ -36,45 +34,38 @@
         }
     });
     // @formatter:on
-</script>
-<script>
+
     document.addEventListener("DOMContentLoaded", function () {
         flatpickr(document.getElementById('calendar-simple'), {});
     });
-</script>
-<script>
+
     document.addEventListener("DOMContentLoaded", function () {
         flatpickr(document.getElementById('calendar-time'), {});
     });
-</script>
-<script>
+
     document.addEventListener("DOMContentLoaded", function () {
         flatpickr(document.getElementById('calendar-inline'), {
             inline: true,
         });
     });
-</script>
-<script>
+
     $(document).ready(function () {
         $('#select-tags').selectize({
             maxItems: 15,
         });
     });
-</script>
-<script>
+
     $(document).ready(function () {
         $('#select-tags-advanced').selectize({
             maxItems: 15,
             plugins: ['remove_button'],
         });
     });
-</script>
-<script>
+
     $(document).ready(function () {
         $('#select-users').selectize({});
     });
-</script>
-<script>
+
     $(document).ready(function () {
         $('#select-people').selectize({
             render: {
@@ -87,8 +78,7 @@
             }
         });
     });
-</script>
-<script>
+
     $(document).ready(function () {
         $('#select-countries').selectize({
             render: {
@@ -101,8 +91,7 @@
             }
         });
     });
-</script>
-<script>
+
     $(document).ready(function () {
         $('#select-states').selectize({
             render: {
@@ -115,8 +104,7 @@
             }
         });
     });
-</script>
-<script>
+
     let sliderTriggerList = [].slice.call(document.querySelectorAll("[data-slider]"));
     sliderTriggerList.map(function (sliderTriggerEl) {
         let options = {};
