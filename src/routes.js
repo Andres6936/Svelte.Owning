@@ -37,7 +37,7 @@ import Widgets from './Page/Widgets.svelte';
 import Buttons from './Page/Buttons.svelte';
 import Charts from './Page/Charts.svelte';
 import Error500 from './Page/Error500.svelte';
-import Icons from './Page/Icons.svelte';
+// import Icons from './Page/Icons.svelte';
 import MapsFullsize from './Page/MapsFullsize.svelte';
 import Music from './Page/Music.svelte';
 import SearchResults from './Page/SearchResults.svelte';
@@ -83,7 +83,8 @@ export const routes = [
     },
     {
         name: 'icons',
-        component: Icons,
+        // component: Icons,
+        component: Empty,
     },
     {
         name: 'modals',
