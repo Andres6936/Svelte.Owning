@@ -1712,109 +1712,109 @@
                                     <div class="mb-3">
                                         <label class="form-label">Select with avatars</label>
                                         <select name="people" id="select-people" class="form-select">
-                                            <option value="1"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/000m.jpg)\"></span>"}'>
-                                                Paweł Kuna
-                                            </option>
-                                            <option value="2"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\">JL</span>"}'>
-                                                Jeffie Lewzey
-                                            </option>
-                                            <option value="3"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/002m.jpg)\"></span>"}'>
-                                                Mallory Hulme
-                                            </option>
-                                            <option value="4"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/003m.jpg)\"></span>"}'
-                                                    selected>Dunn Slane
-                                            </option>
-                                            <option value="5"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/000f.jpg)\"></span>"}'>
-                                                Emmy Levet
-                                            </option>
-                                            <option value="6"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/001f.jpg)\"></span>"}'>
-                                                Maryjo Lebarree
-                                            </option>
-                                            <option value="7"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\">EP</span>"}'>
-                                                Egan Poetz
-                                            </option>
-                                            <option value="8"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/002f.jpg)\"></span>"}'>
-                                                Kellie Skingley
-                                            </option>
-                                            <option value="9"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/003f.jpg)\"></span>"}'>
-                                                Christabel Charlwood
-                                            </option>
-                                            <option value="10"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\">HS</span>"}'>
-                                                Haskel Shelper
-                                            </option>
-                                            <option value="11"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/006m.jpg)\"></span>"}'>
-                                                Lorry Mion
-                                            </option>
-                                            <option value="12"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/004f.jpg)\"></span>"}'>
-                                                Leesa Beaty
-                                            </option>
-                                            <option value="13"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/007m.jpg)\"></span>"}'>
-                                                Perren Keemar
-                                            </option>
-                                            <option value="14"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\">SA</span>"}'>
-                                                Sunny Airey
-                                            </option>
-                                            <option value="15"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/009m.jpg)\"></span>"}'>
-                                                Geoffry Flaunders
-                                            </option>
-                                            <option value="16"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/010m.jpg)\"></span>"}'>
-                                                Thatcher Keel
-                                            </option>
-                                            <option value="17"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/005f.jpg)\"></span>"}'>
-                                                Dyann Escala
-                                            </option>
-                                            <option value="18"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/006f.jpg)\"></span>"}'>
-                                                Avivah Mugleston
-                                            </option>
-                                            <option value="19"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\">AA</span>"}'>
-                                                Arlie Armstead
-                                            </option>
-                                            <option value="20"
-                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/008f.jpg)\"></span>"}'>
-                                                Tessie Curzon
-                                            </option>
+                                            <!--                                            <option value="1"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/000m.jpg)\"></span>"}'>-->
+                                            <!--                                                Paweł Kuna-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="2"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\">JL</span>"}'>-->
+                                            <!--                                                Jeffie Lewzey-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="3"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/002m.jpg)\"></span>"}'>-->
+                                            <!--                                                Mallory Hulme-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="4"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/003m.jpg)\"></span>"}'-->
+                                            <!--                                                    selected>Dunn Slane-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="5"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/000f.jpg)\"></span>"}'>-->
+                                            <!--                                                Emmy Levet-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="6"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/001f.jpg)\"></span>"}'>-->
+                                            <!--                                                Maryjo Lebarree-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="7"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\">EP</span>"}'>-->
+                                            <!--                                                Egan Poetz-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="8"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/002f.jpg)\"></span>"}'>-->
+                                            <!--                                                Kellie Skingley-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="9"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/003f.jpg)\"></span>"}'>-->
+                                            <!--                                                Christabel Charlwood-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="10"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\">HS</span>"}'>-->
+                                            <!--                                                Haskel Shelper-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="11"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/006m.jpg)\"></span>"}'>-->
+                                            <!--                                                Lorry Mion-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="12"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/004f.jpg)\"></span>"}'>-->
+                                            <!--                                                Leesa Beaty-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="13"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/007m.jpg)\"></span>"}'>-->
+                                            <!--                                                Perren Keemar-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="14"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\">SA</span>"}'>-->
+                                            <!--                                                Sunny Airey-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="15"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/009m.jpg)\"></span>"}'>-->
+                                            <!--                                                Geoffry Flaunders-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="16"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/010m.jpg)\"></span>"}'>-->
+                                            <!--                                                Thatcher Keel-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="17"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/005f.jpg)\"></span>"}'>-->
+                                            <!--                                                Dyann Escala-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="18"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/006f.jpg)\"></span>"}'>-->
+                                            <!--                                                Avivah Mugleston-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="19"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\">AA</span>"}'>-->
+                                            <!--                                                Arlie Armstead-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="20"-->
+                                            <!--                                                    data-data='{"avatar": "<span class=\"avatar avatar-xs rounded me-2\" style=\"background-image: url(./static/avatars/008f.jpg)\"></span>"}'>-->
+                                            <!--                                                Tessie Curzon-->
+                                            <!--                                            </option>-->
                                         </select>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Select with flags</label>
                                         <select name="countries" id="select-countries" class="form-select">
-                                            <option value="pl" data-data='{"flag": "pl"}' selected>Poland
-                                            </option>
-                                            <option value="de" data-data='{"flag": "de"}'>Germany</option>
-                                            <option value="cz" data-data='{"flag": "cz"}'>Czech Republic
-                                            </option>
-                                            <option value="br" data-data='{"flag": "br"}'>Brazil</option>
+                                            <!--                                            <option value="pl" data-data='{"flag": "pl"}' selected>Poland-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="de" data-data='{"flag": "de"}'>Germany</option>-->
+                                            <!--                                            <option value="cz" data-data='{"flag": "cz"}'>Czech Republic-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="br" data-data='{"flag": "br"}'>Brazil</option>-->
                                         </select>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Advanced select with validation state</label>
                                         <select name="countries" id="select-states"
                                                 class="form-select is-valid">
-                                            <option value="pl" data-data='{"flag": "pl"}' selected>Poland
-                                            </option>
-                                            <option value="de" data-data='{"flag": "de"}'>Germany</option>
-                                            <option value="cz" data-data='{"flag": "cz"}'>Czech Republic
-                                            </option>
-                                            <option value="br" data-data='{"flag": "br"}'>Brazil</option>
+                                            <!--                                            <option value="pl" data-data='{"flag": "pl"}' selected>Poland-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="de" data-data='{"flag": "de"}'>Germany</option>-->
+                                            <!--                                            <option value="cz" data-data='{"flag": "cz"}'>Czech Republic-->
+                                            <!--                                            </option>-->
+                                            <!--                                            <option value="br" data-data='{"flag": "br"}'>Brazil</option>-->
                                         </select>
                                     </div>
                                 </div>
