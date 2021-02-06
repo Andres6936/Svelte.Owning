@@ -138,8 +138,7 @@
         }
     };
     (new ApexCharts(document.querySelector("#chart-heatmap-basic"), options)).render();
-</script>
-<script>
+
     var options = {
         chart: {
             height: 400,
@@ -279,8 +278,7 @@
         }
     };
     (new ApexCharts(document.querySelector("#chart-heatmap-multiple"), options)).render();
-</script>
-<script>
+
     var options = {
         chart: {
             height: 400,
@@ -420,8 +418,7 @@
         }
     };
     (new ApexCharts(document.querySelector("#chart-heatmap-labels"), options)).render();
-</script>
-<script>
+
     var options = {
         chart: {
             height: 400,
