@@ -179,9 +179,10 @@ line 3 of code
                                 <div class="highlight">
                       <pre class="highlight"><code><span class="kd">var</span> <span class="nx">foo</span> <span
                               class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span
-                              class="nx">bar</span><span class="p">)</span> <span class="p">{</span>
-                          <span class="k">return</span> <span class="nx">bar</span><span class="o">++</span><span class="p">;</span>
-                          <span class="p">};</span>
+                              class="nx">bar</span><span class="p">)</span>
+                          <!--                          <span class="p">{</span>-->
+                          <!--                          <span class="k">return</span> <span class="nx">bar</span><span class="o">++</span><span class="p">;</span>-->
+                          <!--                          <span class="p">};</span>-->
 
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span
                                   class="nx">foo</span><span class="p">(</span><span class="mi">5</span><span class="p">));</span>
