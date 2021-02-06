@@ -189,4 +189,76 @@ export const routes = [
         name: 'activity',
         component: Empty,
     },
+    {
+        name: 'gallery',
+        component: Empty,
+    },
+    {
+        name: 'invoice',
+        component: Empty,
+    },
+    {
+        name: 'search-results',
+        component: Empty,
+    },
+    {
+        name: 'pricing',
+        component: Empty,
+    },
+    {
+        name: 'users',
+        component: Empty,
+    },
+    {
+        name: 'license',
+        component: Empty,
+    },
+    {
+        name: 'music',
+        component: Empty,
+    },
+    {
+        name: 'widgets',
+        component: Empty,
+    },
+    {
+        name: 'wizard',
+        component: Empty,
+    },
+    {
+        name: 'layout-horizontal',
+        component: Empty,
+    },
+    {
+        name: 'layout-vertical',
+        component: Empty,
+    },
+    {
+        name: 'layout-vertical-transparent',
+        component: Empty,
+    },
+    {
+        name: 'layout-vertical-right',
+        component: Empty,
+    },
+    {
+        name: 'layout-condensed',
+        component: Empty,
+    },
+    {
+        name: 'layout-condensed-dark',
+        component: Empty,
+    },
+    {
+        name: 'layout-combo',
+        component: Empty,
+    },
+    {
+        name: 'layout-navbar-dark',
+        component: Empty,
+    },
+    {
+        name: 'layout-navbar-sticky',
+        component: Empty,
+    },
 ];
