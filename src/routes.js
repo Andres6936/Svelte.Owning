@@ -75,6 +75,7 @@ export const routes = [
     {
         name: 'cards',
         component: Cards,
+        layout: DashboardLayout,
     },
     {
         name: 'cards-masonry',
@@ -83,10 +84,12 @@ export const routes = [
     {
         name: 'colors',
         component: Colors,
+        layout: DashboardLayout,
     },
     {
         name: 'dropdowns',
         component: Dropdowns,
+        layout: DashboardLayout,
     },
     {
         name: 'icons',
@@ -140,6 +143,7 @@ export const routes = [
     {
         name: 'carousel',
         component: Carousel,
+        layout: DashboardLayout,
     },
     {
         name: 'lists',
@@ -201,10 +205,12 @@ export const routes = [
     {
         name: 'gallery',
         component: Gallery,
+        layout: DashboardLayout,
     },
     {
         name: 'invoice',
         component: Invoice,
+        layout: DashboardLayout,
     },
     {
         name: 'search-results',
@@ -221,6 +227,7 @@ export const routes = [
     {
         name: 'license',
         component: License,
+        layout: DashboardLayout,
     },
     {
         name: 'music',
