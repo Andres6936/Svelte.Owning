@@ -80,6 +80,7 @@ export const routes = [
     {
         name: 'cards-masonry',
         component: CardsMasonry,
+        layout: DashboardLayout,
     },
     {
         name: 'colors',
@@ -121,10 +122,12 @@ export const routes = [
     {
         name: 'charts',
         component: Charts,
+        layout: DashboardLayout,
     },
     {
         name: 'charts-heatmap',
         component: ChartsHeatmap,
+        layout: DashboardLayout,
     },
     {
         name: 'pagination',
