@@ -49,61 +49,61 @@
         });
     });
 
-    $(document).ready(function () {
-        $('#select-tags').selectize({
-            maxItems: 15,
-        });
-    });
-
-    $(document).ready(function () {
-        $('#select-tags-advanced').selectize({
-            maxItems: 15,
-            plugins: ['remove_button'],
-        });
-    });
-
-    $(document).ready(function () {
-        $('#select-users').selectize({});
-    });
-
-    $(document).ready(function () {
-        $('#select-people').selectize({
-            render: {
-                option: function (data, escape) {
-                    return '<div class="option">' + data.avatar + '' + escape(data.text) + '</div>';
-                },
-                item: function (data, escape) {
-                    return '<div class="d-flex align-items-center">' + data.avatar + '' + escape(data.text) + '</div>';
-                }
-            }
-        });
-    });
-
-    $(document).ready(function () {
-        $('#select-countries').selectize({
-            render: {
-                option: function (data, escape) {
-                    return '<div class="option"><span class="flag flag-country-' + data.flag + ' me-2"></span>' + escape(data.text) + '</div>';
-                },
-                item: function (data, escape) {
-                    return '<div class="d-flex align-items-center"><span class="flag flag-country-' + data.flag + ' me-2"></span>' + escape(data.text) + '</div>';
-                }
-            }
-        });
-    });
-
-    $(document).ready(function () {
-        $('#select-states').selectize({
-            render: {
-                option: function (data, escape) {
-                    return '<div class="option"><span class="flag flag-country-' + data.flag + ' me-2"></span>' + escape(data.text) + '</div>';
-                },
-                item: function (data, escape) {
-                    return '<div class="d-flex align-items-center"><span class="flag flag-country-' + data.flag + ' me-2"></span>' + escape(data.text) + '</div>';
-                }
-            }
-        });
-    });
+    // $(document).ready(function () {
+    //     $('#select-tags').selectize({
+    //         maxItems: 15,
+    //     });
+    // });
+    //
+    // $(document).ready(function () {
+    //     $('#select-tags-advanced').selectize({
+    //         maxItems: 15,
+    //         plugins: ['remove_button'],
+    //     });
+    // });
+    //
+    // $(document).ready(function () {
+    //     $('#select-users').selectize({});
+    // });
+    //
+    // $(document).ready(function () {
+    //     $('#select-people').selectize({
+    //         render: {
+    //             option: function (data, escape) {
+    //                 return '<div class="option">' + data.avatar + '' + escape(data.text) + '</div>';
+    //             },
+    //             item: function (data, escape) {
+    //                 return '<div class="d-flex align-items-center">' + data.avatar + '' + escape(data.text) + '</div>';
+    //             }
+    //         }
+    //     });
+    // });
+    //
+    // $(document).ready(function () {
+    //     $('#select-countries').selectize({
+    //         render: {
+    //             option: function (data, escape) {
+    //                 return '<div class="option"><span class="flag flag-country-' + data.flag + ' me-2"></span>' + escape(data.text) + '</div>';
+    //             },
+    //             item: function (data, escape) {
+    //                 return '<div class="d-flex align-items-center"><span class="flag flag-country-' + data.flag + ' me-2"></span>' + escape(data.text) + '</div>';
+    //             }
+    //         }
+    //     });
+    // });
+    //
+    // $(document).ready(function () {
+    //     $('#select-states').selectize({
+    //         render: {
+    //             option: function (data, escape) {
+    //                 return '<div class="option"><span class="flag flag-country-' + data.flag + ' me-2"></span>' + escape(data.text) + '</div>';
+    //             },
+    //             item: function (data, escape) {
+    //                 return '<div class="d-flex align-items-center"><span class="flag flag-country-' + data.flag + ' me-2"></span>' + escape(data.text) + '</div>';
+    //             }
+    //         }
+    //     });
+    // });
 
     let sliderTriggerList = [].slice.call(document.querySelectorAll("[data-slider]"));
     sliderTriggerList.map(function (sliderTriggerEl) {
