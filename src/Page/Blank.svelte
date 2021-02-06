@@ -1,7 +1,9 @@
 <script>
     import Navigation from "../Navigation.svelte";
+    import Header from "../Header.svelte";
 </script>
 <div class="page">
+    <Header/>
     <Navigation/>
     <div class="content">
         <div class="container-xl d-flex flex-column justify-content-center">
