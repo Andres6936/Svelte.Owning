@@ -4,7 +4,7 @@
             <div class="container-xl">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">
+                        <a class="nav-link" href="/">
                     <span class="nav-link-icon d-md-none d-lg-inline-block"><svg xmlns="http://www.w3.org/2000/svg"
                                                                                  class="icon" width="24" height="24"
                                                                                  viewBox="0 0 24 24" stroke-width="2"
@@ -46,78 +46,78 @@
                                     <a class="dropdown-item" href="empty">
                                         Empty page
                                     </a>
-                                    <a class="dropdown-item" href="./accordion.html">
+                                    <a class="dropdown-item" href="accordion">
                                         Accordion
                                     </a>
-                                    <a class="dropdown-item" href="./blank.html">
+                                    <a class="dropdown-item" href="blank">
                                         Blank page
                                     </a>
-                                    <a class="dropdown-item" href="./buttons.html">
+                                    <a class="dropdown-item" href="buttons">
                                         Buttons
                                     </a>
-                                    <a class="dropdown-item" href="./cards.html">
+                                    <a class="dropdown-item" href="cards">
                                         Cards
                                     </a>
-                                    <a class="dropdown-item" href="./cards-masonry.html">
+                                    <a class="dropdown-item" href="cards-masonry">
                                         Cards Masonry
                                     </a>
-                                    <a class="dropdown-item" href="./colors.html">
+                                    <a class="dropdown-item" href="colors">
                                         Colors
                                     </a>
-                                    <a class="dropdown-item" href="./dropdowns.html">
+                                    <a class="dropdown-item" href="dropdowns">
                                         Dropdowns
                                     </a>
-                                    <a class="dropdown-item" href="./icons.html">
+                                    <a class="dropdown-item" href="icons">
                                         Icons
                                     </a>
-                                    <a class="dropdown-item" href="./modals.html">
+                                    <a class="dropdown-item" href="modals">
                                         Modals
                                     </a>
-                                    <a class="dropdown-item" href="./maps.html">
+                                    <a class="dropdown-item" href="maps">
                                         Maps
                                     </a>
-                                    <a class="dropdown-item" href="./map-fullsize.html">
+                                    <a class="dropdown-item" href="map-fullsize">
                                         Map fullsize
                                     </a>
-                                    <a class="dropdown-item" href="./maps-vector.html">
+                                    <a class="dropdown-item" href="maps-vector">
                                         Vector maps
                                     </a>
-                                    <a class="dropdown-item" href="./navigation.html">
+                                    <a class="dropdown-item" href="navigation">
                                         Navigation
                                     </a>
                                 </div>
                                 <div class="dropdown-menu-column">
-                                    <a class="dropdown-item" href="./charts.html">
+                                    <a class="dropdown-item" href="charts">
                                         Charts
                                     </a>
-                                    <a class="dropdown-item" href="./charts-heatmap.html">
+                                    <a class="dropdown-item" href="charts-heatmap">
                                         Charts heatmap
                                     </a>
-                                    <a class="dropdown-item" href="./pagination.html">
+                                    <a class="dropdown-item" href="pagination">
                                         Pagination
                                     </a>
-                                    <a class="dropdown-item" href="./skeleton.html">
+                                    <a class="dropdown-item" href="skeleton">
                                         Skeleton
                                     </a>
-                                    <a class="dropdown-item" href="./tabs.html">
+                                    <a class="dropdown-item" href="tabs">
                                         Tabs
                                     </a>
-                                    <a class="dropdown-item" href="./tables.html">
+                                    <a class="dropdown-item" href="tables">
                                         Tables
                                     </a>
-                                    <a class="dropdown-item" href="./carousel.html">
+                                    <a class="dropdown-item" href="carousel">
                                         Carousel
                                     </a>
-                                    <a class="dropdown-item" href="./lists.html">
+                                    <a class="dropdown-item" href="lists">
                                         Lists
                                     </a>
-                                    <a class="dropdown-item" href="./typography.html">
+                                    <a class="dropdown-item" href="typography">
                                         Typography
                                     </a>
-                                    <a class="dropdown-item" href="./page-headers.html">
+                                    <a class="dropdown-item" href="page-headers">
                                         Page headers
                                     </a>
-                                    <a class="dropdown-item" href="./markdown.html">
+                                    <a class="dropdown-item" href="markdown">
                                         Markdown
                                     </a>
                                     <div class="dropend">
@@ -126,13 +126,13 @@
                                             Authentication
                                         </a>
                                         <div class="dropdown-menu">
-                                            <a href="./sign-in.html" class="dropdown-item">Sign in</a>
-                                            <a href="./sign-up.html" class="dropdown-item">Sign up</a>
-                                            <a href="./forgot-password.html" class="dropdown-item">Forgot
+                                            <a href="sign-in" class="dropdown-item">Sign in</a>
+                                            <a href="sign-up" class="dropdown-item">Sign up</a>
+                                            <a href="forgot-password" class="dropdown-item">Forgot
                                                 password</a>
-                                            <a href="./terms-of-service.html" class="dropdown-item">Terms of
+                                            <a href="terms-of-service" class="dropdown-item">Terms of
                                                 service</a>
-                                            <a href="./auth-lock.html" class="dropdown-item">Lock screen</a>
+                                            <a href="auth-lock" class="dropdown-item">Lock screen</a>
                                         </div>
                                     </div>
                                     <div class="dropend">
@@ -141,9 +141,9 @@
                                             Error pages
                                         </a>
                                         <div class="dropdown-menu">
-                                            <a href="./error-404.html" class="dropdown-item">404 page</a>
-                                            <a href="./error-500.html" class="dropdown-item">500 page</a>
-                                            <a href="./error-maintenance.html" class="dropdown-item">Maintenance
+                                            <a href="error-404" class="dropdown-item">404 page</a>
+                                            <a href="error-500" class="dropdown-item">500 page</a>
+                                            <a href="error-maintenance" class="dropdown-item">Maintenance
                                                 page</a>
                                         </div>
                                     </div>
@@ -152,7 +152,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./form-elements.html">
+                        <a class="nav-link" href="form-elements">
                     <span class="nav-link-icon d-md-none d-lg-inline-block"><svg xmlns="http://www.w3.org/2000/svg"
                                                                                  class="icon" width="24" height="24"
                                                                                  viewBox="0 0 24 24" stroke-width="2"
@@ -184,34 +184,34 @@
                     </span>
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="./activity.html">
+                            <a class="dropdown-item" href="activity">
                                 Activity
                             </a>
-                            <a class="dropdown-item" href="./gallery.html">
+                            <a class="dropdown-item" href="gallery">
                                 Gallery
                             </a>
-                            <a class="dropdown-item" href="./invoice.html">
+                            <a class="dropdown-item" href="invoice">
                                 Invoice
                             </a>
-                            <a class="dropdown-item" href="./search-results.html">
+                            <a class="dropdown-item" href="search-results">
                                 Search results
                             </a>
-                            <a class="dropdown-item" href="./pricing.html">
+                            <a class="dropdown-item" href="pricing">
                                 Pricing cards
                             </a>
-                            <a class="dropdown-item" href="./users.html">
+                            <a class="dropdown-item" href="users">
                                 Users
                             </a>
-                            <a class="dropdown-item" href="./license.html">
+                            <a class="dropdown-item" href="license">
                                 License
                             </a>
-                            <a class="dropdown-item" href="./music.html">
+                            <a class="dropdown-item" href="music">
                                 Music
                             </a>
-                            <a class="dropdown-item" href="./widgets.html">
+                            <a class="dropdown-item" href="widgets">
                                 Widgets
                             </a>
-                            <a class="dropdown-item" href="./wizard.html">
+                            <a class="dropdown-item" href="wizard">
                                 Wizard
                             </a>
                         </div>
@@ -236,48 +236,48 @@
                         <div class="dropdown-menu">
                             <div class="dropdown-menu-columns">
                                 <div class="dropdown-menu-column">
-                                    <a class="dropdown-item" href="./layout-horizontal.html">
+                                    <a class="dropdown-item" href="layout-horizontal">
                                         Horizontal
                                     </a>
-                                    <a class="dropdown-item" href="./layout-vertical.html">
+                                    <a class="dropdown-item" href="layout-vertical">
                                         Vertical
                                     </a>
-                                    <a class="dropdown-item" href="./layout-vertical-transparent.html">
+                                    <a class="dropdown-item" href="layout-vertical-transparent">
                                         Vertical transparent
                                     </a>
-                                    <a class="dropdown-item" href="./layout-vertical-right.html">
+                                    <a class="dropdown-item" href="layout-vertical-right">
                                         Right vertical
                                     </a>
-                                    <a class="dropdown-item" href="./layout-condensed.html">
+                                    <a class="dropdown-item" href="layout-condensed">
                                         Condensed
                                     </a>
-                                    <a class="dropdown-item" href="./layout-condensed-dark.html">
+                                    <a class="dropdown-item" href="layout-condensed-dark">
                                         Condensed dark
                                     </a>
-                                    <a class="dropdown-item" href="./layout-combo.html">
+                                    <a class="dropdown-item" href="layout-combo">
                                         Combined
                                     </a>
                                 </div>
                                 <div class="dropdown-menu-column">
-                                    <a class="dropdown-item" href="./layout-navbar-dark.html">
+                                    <a class="dropdown-item" href="layout-navbar-dark">
                                         Navbar dark
                                     </a>
-                                    <a class="dropdown-item" href="./layout-navbar-sticky.html">
+                                    <a class="dropdown-item" href="layout-navbar-sticky">
                                         Navbar sticky
                                     </a>
-                                    <a class="dropdown-item" href="./layout-navbar-overlap.html">
+                                    <a class="dropdown-item" href="layout-navbar-overlap">
                                         Navbar overlap
                                     </a>
-                                    <a class="dropdown-item" href="./layout-dark.html">
+                                    <a class="dropdown-item" href="layout-dark">
                                         Dark mode
                                     </a>
-                                    <a class="dropdown-item" href="./layout-rtl.html">
+                                    <a class="dropdown-item" href="layout-rtl">
                                         RTL mode
                                     </a>
-                                    <a class="dropdown-item" href="./layout-fluid.html">
+                                    <a class="dropdown-item" href="layout-fluid">
                                         Fluid
                                     </a>
-                                    <a class="dropdown-item" href="./layout-fluid-vertical.html">
+                                    <a class="dropdown-item" href="layout-fluid-vertical">
                                         Fluid vertical
                                     </a>
                                 </div>
@@ -285,7 +285,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./docs/index.html">
+                        <a class="nav-link" href="docs/index">
                     <span class="nav-link-icon d-md-none d-lg-inline-block"><svg xmlns="http://www.w3.org/2000/svg"
                                                                                  class="icon" width="24" height="24"
                                                                                  viewBox="0 0 24 24" stroke-width="2"
