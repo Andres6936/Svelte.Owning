@@ -55,175 +55,175 @@ export const routes = [
     },
     {
         name: 'accordion',
-        component: Empty,
+        component: Accordion,
     },
     {
         name: 'blank',
-        component: Empty,
+        component: Blank,
     },
     {
         name: 'buttons',
-        component: Empty,
+        component: Buttons,
     },
     {
         name: 'cards',
-        component: Empty,
+        component: Cards,
     },
     {
         name: 'cards-masonry',
-        component: Empty,
+        component: CardsMasonry,
     },
     {
         name: 'colors',
-        component: Empty,
+        component: Colors,
     },
     {
         name: 'dropdowns',
-        component: Empty,
+        component: Dropdowns,
     },
     {
         name: 'icons',
-        component: Empty,
+        component: Icons,
     },
     {
         name: 'modals',
-        component: Empty,
+        component: Modals,
     },
     {
         name: 'maps',
-        component: Empty,
+        component: Maps,
     },
     {
         name: 'maps-fullsize',
-        component: Empty,
+        component: MapsFullsize,
     },
     {
         name: 'maps-vector',
-        component: Empty,
+        component: MapsVector,
     },
     {
         name: 'navigation',
-        component: Empty,
+        component: Navigation,
     },
     {
         name: 'charts',
-        component: Empty,
+        component: Charts,
     },
     {
         name: 'charts-heatmap',
-        component: Empty,
+        component: ChartsHeatmap,
     },
     {
         name: 'pagination',
-        component: Empty,
+        component: Pagination,
     },
     {
         name: 'skeleton',
-        component: Empty,
+        component: Skeleton,
     },
     {
         name: 'tabs',
-        component: Empty,
+        component: Tabs,
     },
     {
         name: 'tables',
-        component: Empty,
+        component: Tables,
     },
     {
         name: 'carousel',
-        component: Empty,
+        component: Carousel,
     },
     {
         name: 'lists',
-        component: Empty,
+        component: Lists,
     },
     {
         name: 'typography',
-        component: Empty,
+        component: Typography,
     },
     {
         name: 'page-headers',
-        component: Empty,
+        component: PageHeaders,
     },
     {
         name: 'markdown',
-        component: Empty,
+        component: Markdown,
     },
     {
         name: 'sign-in',
-        component: Empty,
+        component: SignIn,
     },
     {
         name: 'sign-up',
-        component: Empty,
+        component: SignUp,
     },
     {
         name: 'forgot-password',
-        component: Empty,
+        component: ForgotPassword,
     },
     {
         name: 'terms-of-service',
-        component: Empty,
+        component: TermsOfService,
     },
     {
         name: 'auth-lock',
-        component: Empty,
+        component: AuthLock,
     },
     {
         name: 'error-404',
-        component: Empty,
+        component: Error404,
     },
     {
         name: 'error-500',
-        component: Empty,
+        component: Error500,
     },
     {
         name: 'error-maintenance',
-        component: Empty,
+        component: ErrorMaintenance,
     },
     {
         name: 'form-elements',
-        component: Empty,
+        component: FormElements,
     },
     {
         name: 'activity',
-        component: Empty,
+        component: Activity,
     },
     {
         name: 'gallery',
-        component: Empty,
+        component: Gallery,
     },
     {
         name: 'invoice',
-        component: Empty,
+        component: Invoice,
     },
     {
         name: 'search-results',
-        component: Empty,
+        component: SearchResults,
     },
     {
         name: 'pricing',
-        component: Empty,
+        component: Pricing,
     },
     {
         name: 'users',
-        component: Empty,
+        component: Users,
     },
     {
         name: 'license',
-        component: Empty,
+        component: License,
     },
     {
         name: 'music',
-        component: Empty,
+        component: Music,
     },
     {
         name: 'widgets',
-        component: Empty,
+        component: Widgets,
     },
     {
         name: 'wizard',
-        component: Empty,
+        component: Wizard,
     },
     {
         name: 'layout-horizontal',
