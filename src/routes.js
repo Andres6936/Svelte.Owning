@@ -129,6 +129,7 @@ export const routes = [
     {
         name: 'pagination',
         component: Pagination,
+        layout: DashboardLayout,
     },
     {
         name: 'skeleton',
@@ -224,6 +225,7 @@ export const routes = [
     {
         name: 'pricing',
         component: Pricing,
+        layout: DashboardLayout,
     },
     {
         name: 'users',
