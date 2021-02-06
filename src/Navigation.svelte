@@ -76,7 +76,7 @@
                                     <a class="dropdown-item" href="maps">
                                         Maps
                                     </a>
-                                    <a class="dropdown-item" href="map-fullsize">
+                                    <a class="dropdown-item" href="maps-fullsize">
                                         Map fullsize
                                     </a>
                                     <a class="dropdown-item" href="maps-vector">
