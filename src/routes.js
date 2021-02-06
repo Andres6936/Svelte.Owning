@@ -55,18 +55,22 @@ export const routes = [
     {
         name: 'empty',
         component: Empty,
+        layout: DashboardLayout,
     },
     {
         name: 'accordion',
         component: Accordion,
+        layout: DashboardLayout,
     },
     {
         name: 'blank',
         component: Blank,
+        layout: DashboardLayout,
     },
     {
         name: 'buttons',
         component: Buttons,
+        layout: DashboardLayout,
     },
     {
         name: 'cards',
@@ -192,6 +196,7 @@ export const routes = [
     {
         name: 'activity',
         component: Activity,
+        layout: DashboardLayout,
     },
     {
         name: 'gallery',
