@@ -1,7 +1,7 @@
 <script>
     // @formatter:on
     document.addEventListener("DOMContentLoaded", function () {
-        $('#map-world').vectorMap({
+        ('#map-world').vectorMap({
             map: 'world_en',
             backgroundColor: 'transparent',
             color: 'rgba(120, 130, 140, .1)',
@@ -203,7 +203,7 @@
     // @formatter:off
     // @formatter:on
     document.addEventListener("DOMContentLoaded", function () {
-        $('#map-europe').vectorMap({
+        ('#map-europe').vectorMap({
             map: 'europe_en',
             backgroundColor: 'transparent',
             color: 'rgba(120, 130, 140, .1)',
@@ -214,7 +214,7 @@
     // @formatter:off
     // @formatter:on
     document.addEventListener("DOMContentLoaded", function () {
-        $('#map-usa').vectorMap({
+        ('#map-usa').vectorMap({
             map: 'usa_en',
             backgroundColor: 'transparent',
             color: 'rgba(120, 130, 140, .1)',
