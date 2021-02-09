@@ -113,6 +113,7 @@ export const routes = [
     {
         name: 'maps-vector',
         component: MapsVector,
+        layout: DashboardLayout,
     },
     {
         name: 'navigation',
@@ -137,14 +138,17 @@ export const routes = [
     {
         name: 'skeleton',
         component: Skeleton,
+        layout: DashboardLayout,
     },
     {
         name: 'tabs',
         component: Tabs,
+        layout: DashboardLayout,
     },
     {
         name: 'tables',
         component: Tables,
+        layout: DashboardLayout,
     },
     {
         name: 'carousel',
@@ -159,6 +163,7 @@ export const routes = [
     {
         name: 'typography',
         component: Typography,
+        layout: DashboardLayout,
     },
     {
         name: 'page-headers',
@@ -224,6 +229,7 @@ export const routes = [
     {
         name: 'search-results',
         component: SearchResults,
+        layout: DashboardLayout,
     },
     {
         name: 'pricing',
@@ -233,6 +239,7 @@ export const routes = [
     {
         name: 'users',
         component: Users,
+        layout: DashboardLayout,
     },
     {
         name: 'license',
@@ -247,6 +254,7 @@ export const routes = [
     {
         name: 'widgets',
         component: Widgets,
+        layout: DashboardLayout,
     },
     {
         name: 'wizard',
