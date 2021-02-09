@@ -5,7 +5,7 @@
         </div>
         <div class="card card-md">
             <div class="card-body text-center py-4 p-sm-5">
-                <img src="./static/illustrations/undraw_sign_in_e6hj.svg" height="128" class="mb-n2" height="120"
+                <img src="./static/illustrations/undraw_sign_in_e6hj.svg" height="128" class="mb-n2"
                      alt="">
                 <h1 class="mt-5">Welcome to Tabler!</h1>
                 <p class="text-muted">Tabler comes with tons of well-designed components and features. Start your
