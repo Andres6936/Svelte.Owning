@@ -1,6 +1,20 @@
 <script>
     import ApexCharts from './Chart/Apexchart/index.min.js';
 
+    export const renderApexChart = (node, options) => {
+        const apexChart = new ApexCharts(node, options);
+        apexChart.render();
+
+        return {
+            update(options) {
+                apexChart.updateOptions(options);
+            },
+            destroy() {
+                apexChart.destroy();
+            }
+        }
+    };
+
     const sparklineActivity = {
         chart: {
             type: "radialBar",
@@ -93,20 +107,6 @@
         point: {
             show: false
         },
-    };
-
-    export const renderApexChart = (node, options) => {
-        const apexChart = new ApexCharts(node, options);
-        apexChart.render();
-
-        return {
-            update(options) {
-                apexChart.updateOptions(options);
-            },
-            destroy() {
-                apexChart.destroy();
-            }
-        }
     };
 
 </script>

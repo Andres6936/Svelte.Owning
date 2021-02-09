@@ -1,178 +1,170 @@
 <script>
 
-    // @formatter:off
-    document.addEventListener("DOMContentLoaded", function () {
-        window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-1'), {
-            chart: {
-                type: "line",
-                fontFamily: 'inherit',
-                height: 24,
-                animations: {
-                    enabled: false
-                },
-                sparkline: {
-                    enabled: true
-                },
-            },
-            tooltip: {
-                enabled: false,
-            },
-            stroke: {
-                width: 2,
-                lineCap: "round",
-            },
-            series: [{
-                color: "#206bc4",
-                data: [17, 24, 20, 10, 5, 1, 4, 18, 13]
-            }],
-        })).render();
-    });
-    // @formatter:on
+    import ApexCharts from './Chart/Apexchart/index.min.js';
 
-    // @formatter:off
-    document.addEventListener("DOMContentLoaded", function () {
-        window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-2'), {
-            chart: {
-                type: "line",
-                fontFamily: 'inherit',
-                height: 24,
-                animations: {
-                    enabled: false
-                },
-                sparkline: {
-                    enabled: true
-                },
-            },
-            tooltip: {
-                enabled: false,
-            },
-            stroke: {
-                width: 2,
-                lineCap: "round",
-            },
-            series: [{
-                color: "#206bc4",
-                data: [13, 11, 19, 22, 12, 7, 14, 3, 21]
-            }],
-        })).render();
-    });
-    // @formatter:on
+    export const renderApexChart = (node, options) => {
+        const apexChart = new ApexCharts(node, options);
+        apexChart.render();
 
-    // @formatter:off
-    document.addEventListener("DOMContentLoaded", function () {
-        window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-3'), {
-            chart: {
-                type: "line",
-                fontFamily: 'inherit',
-                height: 24,
-                animations: {
-                    enabled: false
-                },
-                sparkline: {
-                    enabled: true
-                },
+        return {
+            update(options) {
+                apexChart.updateOptions(options);
             },
-            tooltip: {
-                enabled: false,
-            },
-            stroke: {
-                width: 2,
-                lineCap: "round",
-            },
-            series: [{
-                color: "#206bc4",
-                data: [10, 13, 10, 4, 17, 3, 23, 22, 19]
-            }],
-        })).render();
-    });
-    // @formatter:on
+            destroy() {
+                apexChart.destroy();
+            }
+        }
+    };
 
-    // @formatter:off
-    document.addEventListener("DOMContentLoaded", function () {
-        window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-4'), {
-            chart: {
-                type: "line",
-                fontFamily: 'inherit',
-                height: 24,
-                animations: {
-                    enabled: false
-                },
-                sparkline: {
-                    enabled: true
-                },
+    const sparklineBounceRate1 = {
+        chart: {
+            type: "line",
+            fontFamily: 'inherit',
+            height: 24,
+            animations: {
+                enabled: false
             },
-            tooltip: {
-                enabled: false,
+            sparkline: {
+                enabled: true
             },
-            stroke: {
-                width: 2,
-                lineCap: "round",
-            },
-            series: [{
-                color: "#206bc4",
-                data: [6, 15, 13, 13, 5, 7, 17, 20, 19]
-            }],
-        })).render();
-    });
-    // @formatter:on
+        },
+        tooltip: {
+            enabled: false,
+        },
+        stroke: {
+            width: 2,
+            lineCap: "round",
+        },
+        series: [{
+            color: "#206bc4",
+            data: [17, 24, 20, 10, 5, 1, 4, 18, 13]
+        }],
+    };
 
-    // @formatter:off
-    document.addEventListener("DOMContentLoaded", function () {
-        window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-5'), {
-            chart: {
-                type: "line",
-                fontFamily: 'inherit',
-                height: 24,
-                animations: {
-                    enabled: false
-                },
-                sparkline: {
-                    enabled: true
-                },
+    const sparklineBounceRate2 = {
+        chart: {
+            type: "line",
+            fontFamily: 'inherit',
+            height: 24,
+            animations: {
+                enabled: false
             },
-            tooltip: {
-                enabled: false,
+            sparkline: {
+                enabled: true
             },
-            stroke: {
-                width: 2,
-                lineCap: "round",
-            },
-            series: [{
-                color: "#206bc4",
-                data: [2, 11, 15, 14, 21, 20, 8, 23, 18, 14]
-            }],
-        })).render();
-    });
-    // @formatter:on
+        },
+        tooltip: {
+            enabled: false,
+        },
+        stroke: {
+            width: 2,
+            lineCap: "round",
+        },
+        series: [{
+            color: "#206bc4",
+            data: [13, 11, 19, 22, 12, 7, 14, 3, 21]
+        }],
+    };
 
-    // @formatter:off
-    document.addEventListener("DOMContentLoaded", function () {
-        window.ApexCharts && (new ApexCharts(document.getElementById('sparkline-bounce-rate-6'), {
-            chart: {
-                type: "line",
-                fontFamily: 'inherit',
-                height: 24,
-                animations: {
-                    enabled: false
-                },
-                sparkline: {
-                    enabled: true
-                },
+    const sparklineBounceRate3 = {
+        chart: {
+            type: "line",
+            fontFamily: 'inherit',
+            height: 24,
+            animations: {
+                enabled: false
             },
-            tooltip: {
-                enabled: false,
+            sparkline: {
+                enabled: true
             },
-            stroke: {
-                width: 2,
-                lineCap: "round",
+        },
+        tooltip: {
+            enabled: false,
+        },
+        stroke: {
+            width: 2,
+            lineCap: "round",
+        },
+        series: [{
+            color: "#206bc4",
+            data: [10, 13, 10, 4, 17, 3, 23, 22, 19]
+        }],
+    };
+
+    const sparklineBounceRate4 = {
+        chart: {
+            type: "line",
+            fontFamily: 'inherit',
+            height: 24,
+            animations: {
+                enabled: false
             },
-            series: [{
-                color: "#206bc4",
-                data: [22, 12, 7, 14, 3, 21, 8, 23, 18, 14]
-            }],
-        })).render();
-    });
-    // @formatter:on
+            sparkline: {
+                enabled: true
+            },
+        },
+        tooltip: {
+            enabled: false,
+        },
+        stroke: {
+            width: 2,
+            lineCap: "round",
+        },
+        series: [{
+            color: "#206bc4",
+            data: [6, 15, 13, 13, 5, 7, 17, 20, 19]
+        }],
+    };
+
+    const sparklineBounceRate5 = {
+        chart: {
+            type: "line",
+            fontFamily: 'inherit',
+            height: 24,
+            animations: {
+                enabled: false
+            },
+            sparkline: {
+                enabled: true
+            },
+        },
+        tooltip: {
+            enabled: false,
+        },
+        stroke: {
+            width: 2,
+            lineCap: "round",
+        },
+        series: [{
+            color: "#206bc4",
+            data: [2, 11, 15, 14, 21, 20, 8, 23, 18, 14]
+        }],
+    };
+
+    const sparklineBounceRate6 = {
+        chart: {
+            type: "line",
+            fontFamily: 'inherit',
+            height: 24,
+            animations: {
+                enabled: false
+            },
+            sparkline: {
+                enabled: true
+            },
+        },
+        tooltip: {
+            enabled: false,
+        },
+        stroke: {
+            width: 2,
+            lineCap: "round",
+        },
+        series: [{
+            color: "#206bc4",
+            data: [22, 12, 7, 14, 3, 21, 8, 23, 18, 14]
+        }],
+    };
 </script>
 
 <div class="card">
@@ -206,8 +198,7 @@
                 <td class="text-muted">3,654</td>
                 <td class="text-muted">82.54%</td>
                 <td class="text-end w-1">
-                    <div class="chart-sparkline chart-sparkline-sm"
-                         id="sparkline-bounce-rate-1"></div>
+                    <div class="chart-sparkline chart-sparkline-sm" use:renderApexChart={sparklineBounceRate1}></div>
                 </td>
             </tr>
             <tr>
@@ -228,7 +219,7 @@
                 <td class="text-muted">76.29%</td>
                 <td class="text-end w-1">
                     <div class="chart-sparkline chart-sparkline-sm"
-                         id="sparkline-bounce-rate-2"></div>
+                         use:renderApexChart={sparklineBounceRate2}></div>
                 </td>
             </tr>
             <tr>
@@ -249,7 +240,7 @@
                 <td class="text-muted">72.65%</td>
                 <td class="text-end w-1">
                     <div class="chart-sparkline chart-sparkline-sm"
-                         id="sparkline-bounce-rate-3"></div>
+                         use:renderApexChart={sparklineBounceRate3}></div>
                 </td>
             </tr>
             <tr>
@@ -270,7 +261,7 @@
                 <td class="text-muted">44.89%</td>
                 <td class="text-end w-1">
                     <div class="chart-sparkline chart-sparkline-sm"
-                         id="sparkline-bounce-rate-4"></div>
+                         use:renderApexChart={sparklineBounceRate4}></div>
                 </td>
             </tr>
             <tr>
@@ -291,7 +282,7 @@
                 <td class="text-muted">41.12%</td>
                 <td class="text-end w-1">
                     <div class="chart-sparkline chart-sparkline-sm"
-                         id="sparkline-bounce-rate-5"></div>
+                         use:renderApexChart={sparklineBounceRate5}></div>
                 </td>
             </tr>
             <tr>
@@ -312,7 +303,7 @@
                 <td class="text-muted">32.65%</td>
                 <td class="text-end w-1">
                     <div class="chart-sparkline chart-sparkline-sm"
-                         id="sparkline-bounce-rate-6"></div>
+                         use:renderApexChart={sparklineBounceRate6}></div>
                 </td>
             </tr>
         </table>
