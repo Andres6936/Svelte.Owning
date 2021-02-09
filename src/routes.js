@@ -53,6 +53,11 @@ export const routes = [
         layout: DashboardLayout,
     },
     {
+        name: 'index',
+        component: Index,
+        layout: DashboardLayout,
+    },
+    {
         name: 'empty',
         component: Empty,
         layout: DashboardLayout,

@@ -7,7 +7,7 @@
             <div class="container-xl">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/">
+                        <a class="nav-link" href="index">
                     <span class="nav-link-icon d-md-none d-lg-inline-block">
                         <Svg24>
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
