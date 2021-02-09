@@ -1,10 +1,8 @@
 <script>
 
-    import ApexCharts from './Chart/Apexchart/apexcharts';
+    import ApexCharts from './Chart/Apexchart/index.min.js';
 
-    window.ApexCharts = ApexCharts;
-
-    export const optionsChart = {
+    const optionsChart = {
         chart: {
             type: "bar",
             fontFamily: 'inherit',
@@ -104,6 +102,6 @@
                       </span>
             </div>
         </div>
-        <div id="chart-active-users" class="chart-sm" use:renderApexChart={optionsChart}></div>
+        <div class="chart-sm" use:renderApexChart={optionsChart}></div>
     </div>
 </div>
