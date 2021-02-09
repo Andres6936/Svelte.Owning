@@ -283,7 +283,7 @@
                         <abbr title="Phone">P: </abbr>(123) 456 7890
                     </address>
                     <address><strong>Full name <br>
-                    </strong><a mailto:#="">first.last@example.com</a></address>
+                    </strong><a>first.last@example.com</a></address>
                 </div>
             </div>
         </div>
