@@ -1,6 +1,7 @@
 <script>
 
     import ApexCharts from '../Chart/Apexchart/index.min.js';
+    import Svg24 from "../SVG/Svg24.svelte";
 
     export const renderApexChart = (node, options) => {
         const apexChart = new ApexCharts(node, options);
@@ -185,13 +186,11 @@
                 <td>
                     /about.html
                     <a href="#" class="ms-1" aria-label="Open website">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                             stroke-linecap="round" stroke-linejoin="round">
+                        <Svg24>
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"/>
                             <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"/>
-                        </svg>
+                        </Svg24>
                     </a>
                 </td>
                 <td class="text-muted">4,896</td>
@@ -205,13 +204,11 @@
                 <td>
                     /special-promo.html
                     <a href="#" class="ms-1" aria-label="Open website">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                             stroke-linecap="round" stroke-linejoin="round">
+                        <Svg24>
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"/>
                             <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"/>
-                        </svg>
+                        </Svg24>
                     </a>
                 </td>
                 <td class="text-muted">3,652</td>
@@ -226,13 +223,11 @@
                 <td>
                     /news/1,new-ui-kit.html
                     <a href="#" class="ms-1" aria-label="Open website">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                             stroke-linecap="round" stroke-linejoin="round">
+                        <Svg24>
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"/>
                             <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"/>
-                        </svg>
+                        </Svg24>
                     </a>
                 </td>
                 <td class="text-muted">3,256</td>
@@ -247,13 +242,11 @@
                 <td>
                     /lorem-ipsum-dolor-sit-amet-very-long-url.html
                     <a href="#" class="ms-1" aria-label="Open website">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                             stroke-linecap="round" stroke-linejoin="round">
+                        <Svg24>
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"/>
                             <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"/>
-                        </svg>
+                        </Svg24>
                     </a>
                 </td>
                 <td class="text-muted">986</td>
@@ -268,13 +261,11 @@
                 <td>
                     /colors.html
                     <a href="#" class="ms-1" aria-label="Open website">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                             stroke-linecap="round" stroke-linejoin="round">
+                        <Svg24>
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"/>
                             <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"/>
-                        </svg>
+                        </Svg24>
                     </a>
                 </td>
                 <td class="text-muted">912</td>
@@ -289,13 +280,11 @@
                 <td>
                     /docs/index.html
                     <a href="#" class="ms-1" aria-label="Open website">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                             stroke-linecap="round" stroke-linejoin="round">
+                        <Svg24>
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"/>
                             <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"/>
-                        </svg>
+                        </Svg24>
                     </a>
                 </td>
                 <td class="text-muted">855</td>
