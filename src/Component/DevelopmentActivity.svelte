@@ -1,5 +1,6 @@
 <script>
     import ApexCharts from '../Chart/Apexchart/index.min.js';
+    import Table from "./Table/Table.svelte";
 
     export const renderApexChart = (node, options) => {
         const apexChart = new ApexCharts(node, options);
@@ -140,15 +141,8 @@
         <div use:renderApexChart={chartDevelopmentActivity}></div>
     </div>
     <div class="table-responsive">
-        <table class="table card-table table-vcenter">
-            <thead>
-            <tr>
-                <th>User</th>
-                <th>Commit</th>
-                <th>Date</th>
-            </tr>
-            </thead>
-            <tbody>
+
+        <Table headers={["User", "Commit", "Date"]} extraClass="card-table table-vcenter">
             <tr>
                 <td class="w-1">
                                         <span class="avatar avatar-sm"
@@ -208,7 +202,6 @@
                 </td>
                 <td class="text-nowrap text-muted">25 Nov 2019</td>
             </tr>
-            </tbody>
-        </table>
+        </Table>
     </div>
 </div>
