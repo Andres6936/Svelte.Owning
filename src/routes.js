@@ -205,6 +205,17 @@ export const routes = [
         component: Error404,
     },
     {
+        // Default behaviour
+        // Svelte Router redirects to a 404.html page if a route is not found. Most hosting providers support this
+        // configuration and will serve a 404.html page automatically for not found pages. Just add a 404.html page
+        // in the same directory where your index.html file is.
+        // Custom behaviour
+        // If you define a 404 route it will be rendered instead of the default behaviour.
+        name: '404',
+        path: '404',
+        component: Error404,
+    },
+    {
         name: 'error-500',
         component: Error500,
     },
