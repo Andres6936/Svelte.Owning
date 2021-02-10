@@ -24,8 +24,8 @@
         }
     })();
 
-    import Navigation from '../Navigation.svelte';
-    import Header from "../Header.svelte";
+    import Navigation from '../General/Navigation.svelte';
+    import Header from "../General/Header.svelte";
 
 </script>
 
