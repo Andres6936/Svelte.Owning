@@ -1,5 +1,5 @@
 <script>
-    import Svg24 from "./SVG/Svg24.svelte";
+    import Svg24 from "../SVG/Svg24.svelte";
 </script>
 <div class="navbar-expand-md">
     <div class="collapse navbar-collapse" id="navbar-menu">
