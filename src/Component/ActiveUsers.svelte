@@ -1,6 +1,6 @@
 <script>
 
-    import ApexCharts from './Chart/Apexchart/index.min.js';
+    import ApexCharts from '../Chart/Apexchart/index.min.js';
     import DropdownSelect from "./Atomic/DropdownSelect.svelte";
 
     const optionsChart = {
