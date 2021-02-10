@@ -1,5 +1,5 @@
 <script>
-    import ApexCharts from './Chart/Apexchart/index.min.js';
+    import ApexCharts from '../Chart/Apexchart/index.min.js';
 
     export const renderApexChart = (node, options) => {
         const apexChart = new ApexCharts(node, options);
