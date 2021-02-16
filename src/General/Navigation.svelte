@@ -130,30 +130,15 @@
                     </span>
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="activity">
-                                Activity
-                            </a>
-                            <a class="dropdown-item" href="gallery">
-                                Gallery
-                            </a>
-                            <a class="dropdown-item" href="invoice">
-                                Invoice
-                            </a>
-                            <a class="dropdown-item" href="search-results">
-                                Search results
-                            </a>
-                            <a class="dropdown-item" href="pricing">
-                                Pricing cards
-                            </a>
-                            <a class="dropdown-item" href="users">
-                                Users
-                            </a>
-                            <a class="dropdown-item" href="license">
-                                License
-                            </a>
-                            <a class="dropdown-item" href="music">
-                                Music
-                            </a>
+                            <Link href="activity" title="Activity"/>
+                            <Link href="gallery" title="Gallery"/>
+                            <Link href="invoice" title="Invoice"/>
+                            <Link href="search-results" title="Search results"/>
+                            <Link href="pricing" title="Pricing cards"/>
+                            <Link href="users" title="Users"/>
+                            <Link href="license" title="License"/>
+                            <Link href="music" title="Music"/>
+
                             <a class="dropdown-item" href="widgets">
                                 Widgets
                             </a>
