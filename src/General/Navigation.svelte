@@ -171,27 +171,13 @@
                                     <Link href="layout-combo" title="Combined"/>
                                 </div>
                                 <div class="dropdown-menu-column">
-                                    <a class="dropdown-item" href="layout-navbar-dark">
-                                        Navbar dark
-                                    </a>
-                                    <a class="dropdown-item" href="layout-navbar-sticky">
-                                        Navbar sticky
-                                    </a>
-                                    <a class="dropdown-item" href="layout-navbar-overlap">
-                                        Navbar overlap
-                                    </a>
-                                    <a class="dropdown-item" href="layout-dark">
-                                        Dark mode
-                                    </a>
-                                    <a class="dropdown-item" href="layout-rtl">
-                                        RTL mode
-                                    </a>
-                                    <a class="dropdown-item" href="layout-fluid">
-                                        Fluid
-                                    </a>
-                                    <a class="dropdown-item" href="layout-fluid-vertical">
-                                        Fluid vertical
-                                    </a>
+                                    <Link href="layout-navbar-dark" title="Navbar dark"/>
+                                    <Link href="layout-navbar-sticky" title="Navbar sticky"/>
+                                    <Link href="layout-navbar-overlap" title="Navbar overlap"/>
+                                    <Link href="layout-dark" title="Dark mode"/>
+                                    <Link href="layout-rtl" title="RTL mode"/>
+                                    <Link href="layout-fluid" title="Fluid"/>
+                                    <Link href="layout-fluid-vertical" title="Fluid vertical"/>
                                 </div>
                             </div>
                         </DropdownMenu>
