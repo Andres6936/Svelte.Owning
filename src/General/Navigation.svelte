@@ -138,13 +138,8 @@
                             <Link href="users" title="Users"/>
                             <Link href="license" title="License"/>
                             <Link href="music" title="Music"/>
-
-                            <a class="dropdown-item" href="widgets">
-                                Widgets
-                            </a>
-                            <a class="dropdown-item" href="wizard">
-                                Wizard
-                            </a>
+                            <Link href="widgets" title="Widgets"/>
+                            <Link href="wizard" title="Wizard"/>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
