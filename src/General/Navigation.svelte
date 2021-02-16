@@ -2,6 +2,7 @@
     import Svg24 from "../SVG/Svg24.svelte";
     import Link from "./Atomic/Link.svelte";
     import DropdownMenu from "./Atomic/DropdownMenu.svelte";
+    import NavLinkTitle from "./Atomic/NavLinkTitle.svelte";
 </script>
 
 <div class="navbar-expand-md">
@@ -19,9 +20,7 @@
                             <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"/>
                         </Svg24>
                     </span>
-                            <span class="nav-link-title">
-                      Home
-                    </span>
+                            <NavLinkTitle title="Home"/>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
@@ -37,9 +36,7 @@
                             <line x1="16" y1="5.25" x2="8" y2="9.75"/>
                         </Svg24>
                     </span>
-                            <span class="nav-link-title">
-                      Interface
-                    </span>
+                            <NavLinkTitle title="Interface"/>
                         </a>
                         <DropdownMenu>
                             <div class="dropdown-menu-columns">
@@ -112,9 +109,7 @@
                             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"/>
                         </Svg24>
                     </span>
-                            <span class="nav-link-title">
-                      Form elements
-                    </span>
+                            <NavLinkTitle title="Form elements"/>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
@@ -126,9 +121,7 @@
                             <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"/>
                         </Svg24>
                     </span>
-                            <span class="nav-link-title">
-                      Extra
-                    </span>
+                            <NavLinkTitle title="Extra"/>
                         </a>
                         <DropdownMenu>
                             <Link href="activity" title="Activity"/>
