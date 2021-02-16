@@ -1,6 +1,7 @@
 <script>
     import Svg24 from "../SVG/Svg24.svelte";
     import Link from "./Atomic/Link.svelte";
+    import DropdownMenu from "./Atomic/DropdownMenu.svelte";
 </script>
 
 <div class="navbar-expand-md">
@@ -40,7 +41,7 @@
                       Interface
                     </span>
                         </a>
-                        <div class="dropdown-menu">
+                        <DropdownMenu>
                             <div class="dropdown-menu-columns">
                                 <div class="dropdown-menu-column">
                                     <Link href="empty" title="Empty Page"/>
@@ -76,7 +77,7 @@
                                            data-bs-toggle="dropdown" role="button" aria-expanded="false">
                                             Authentication
                                         </a>
-                                        <div class="dropdown-menu">
+                                        <DropdownMenu>
                                             <a href="sign-in" class="dropdown-item">Sign in</a>
                                             <a href="sign-up" class="dropdown-item">Sign up</a>
                                             <a href="forgot-password" class="dropdown-item">Forgot
@@ -84,23 +85,23 @@
                                             <a href="terms-of-service" class="dropdown-item">Terms of
                                                 service</a>
                                             <a href="auth-lock" class="dropdown-item">Lock screen</a>
-                                        </div>
+                                        </DropdownMenu>
                                     </div>
                                     <div class="dropend">
                                         <a class="dropdown-item dropdown-toggle" href="#sidebar-error"
                                            data-bs-toggle="dropdown" role="button" aria-expanded="false">
                                             Error pages
                                         </a>
-                                        <div class="dropdown-menu">
+                                        <DropdownMenu>
                                             <a href="error-404" class="dropdown-item">404 page</a>
                                             <a href="error-500" class="dropdown-item">500 page</a>
                                             <a href="error-maintenance" class="dropdown-item">Maintenance
                                                 page</a>
-                                        </div>
+                                        </DropdownMenu>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </DropdownMenu>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="form-elements">
@@ -129,7 +130,7 @@
                       Extra
                     </span>
                         </a>
-                        <div class="dropdown-menu">
+                        <DropdownMenu>
                             <Link href="activity" title="Activity"/>
                             <Link href="gallery" title="Gallery"/>
                             <Link href="invoice" title="Invoice"/>
@@ -140,7 +141,7 @@
                             <Link href="music" title="Music"/>
                             <Link href="widgets" title="Widgets"/>
                             <Link href="wizard" title="Wizard"/>
-                        </div>
+                        </DropdownMenu>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#navbar-layout" data-bs-toggle="dropdown"
