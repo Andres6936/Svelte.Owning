@@ -1,5 +1,10 @@
-<div class="card">
-    <div class="card-body">
+<script>
+    import Card from "../Wrapper/Bootstrap/Card.svelte";
+    import CardBody from "../Wrapper/Bootstrap/CardBody.svelte";
+</script>
+
+<Card>
+    <CardBody>
         <p class="mb-3">Using Storage <strong>6854.45 MB </strong>of 8 GB</p>
         <div class="progress progress-separated mb-3">
             <div class="progress-bar bg-primary" role="progressbar"
@@ -29,5 +34,6 @@
                 <span class="d-none d-md-inline d-lg-none d-xxl-inline ms-2 text-muted">612MB</span>
             </div>
         </div>
-    </div>
-</div>
+    </CardBody>
+</Card>
+
