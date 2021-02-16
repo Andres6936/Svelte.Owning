@@ -1,3 +1,7 @@
+<script>
+    import Card from "../Wrapper/Bootstrap/Card.svelte";
+    import CardBody from "../Wrapper/Bootstrap/CardBody.svelte";
+</script>
 <div class="container-xl">
     <!-- Page title -->
     <div class="page-header d-print-none">
@@ -9,8 +13,9 @@
             </div>
         </div>
     </div>
-    <div class="card">
-        <div class="card-body">
+
+    <Card>
+        <CardBody>
             <div class="accordion" id="accordion-example">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="heading-1">
@@ -89,6 +94,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </CardBody>
+    </Card>
 </div>
