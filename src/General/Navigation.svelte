@@ -1,6 +1,8 @@
 <script>
     import Svg24 from "../SVG/Svg24.svelte";
+    import Link from "./Atomic/Link.svelte";
 </script>
+
 <div class="navbar-expand-md">
     <div class="collapse navbar-collapse" id="navbar-menu">
         <div class="navbar navbar-light">
@@ -41,48 +43,20 @@
                         <div class="dropdown-menu">
                             <div class="dropdown-menu-columns">
                                 <div class="dropdown-menu-column">
-                                    <a class="dropdown-item" href="empty">
-                                        Empty page
-                                    </a>
-                                    <a class="dropdown-item" href="accordion">
-                                        Accordion
-                                    </a>
-                                    <a class="dropdown-item" href="blank">
-                                        Blank page
-                                    </a>
-                                    <a class="dropdown-item" href="buttons">
-                                        Buttons
-                                    </a>
-                                    <a class="dropdown-item" href="cards">
-                                        Cards
-                                    </a>
-                                    <a class="dropdown-item" href="cards-masonry">
-                                        Cards Masonry
-                                    </a>
-                                    <a class="dropdown-item" href="colors">
-                                        Colors
-                                    </a>
-                                    <a class="dropdown-item" href="dropdowns">
-                                        Dropdowns
-                                    </a>
-                                    <a class="dropdown-item" href="icons">
-                                        Icons
-                                    </a>
-                                    <a class="dropdown-item" href="modals">
-                                        Modals
-                                    </a>
-                                    <a class="dropdown-item" href="maps">
-                                        Maps
-                                    </a>
-                                    <a class="dropdown-item" href="maps-fullsize">
-                                        Map fullsize
-                                    </a>
-                                    <a class="dropdown-item" href="maps-vector">
-                                        Vector maps
-                                    </a>
-                                    <a class="dropdown-item" href="navigation">
-                                        Navigation
-                                    </a>
+                                    <Link href="empty" title="Empty Page"/>
+                                    <Link href="accordion" title="Accordion"/>
+                                    <Link href="blank" title="Blank Page"/>
+                                    <Link href="buttons" title="Buttons"/>
+                                    <Link href="cards" title="Card"/>
+                                    <Link href="card-masonry" title="Cards Masonry"/>
+                                    <Link href="colors" title="Colors"/>
+                                    <Link href="dropdowns" title="Dropdowns"/>
+                                    <Link href="icons" title="Icons"/>
+                                    <Link href="modals" title="Modals"/>
+                                    <Link href="maps" title="Maps"/>
+                                    <Link href="maps-fullsize" title="Map fullsize"/>
+                                    <Link href="maps-vector" title="Vector maps"/>
+                                    <Link href="navigation" title="Navigation"/>
                                 </div>
                                 <div class="dropdown-menu-column">
                                     <a class="dropdown-item" href="charts">
