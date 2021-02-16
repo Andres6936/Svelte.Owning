@@ -90,10 +90,9 @@
                                             Error pages
                                         </a>
                                         <DropdownMenu>
-                                            <a href="error-404" class="dropdown-item">404 page</a>
-                                            <a href="error-500" class="dropdown-item">500 page</a>
-                                            <a href="error-maintenance" class="dropdown-item">Maintenance
-                                                page</a>
+                                            <Link href="error-404" title="404 page"/>
+                                            <Link href="error-500" title="500 page"/>
+                                            <Link href="error-maintenance" title="Maintenance page"/>
                                         </DropdownMenu>
                                     </div>
                                 </div>
