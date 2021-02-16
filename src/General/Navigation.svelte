@@ -59,39 +59,18 @@
                                     <Link href="navigation" title="Navigation"/>
                                 </div>
                                 <div class="dropdown-menu-column">
-                                    <a class="dropdown-item" href="charts">
-                                        Charts
-                                    </a>
-                                    <a class="dropdown-item" href="charts-heatmap">
-                                        Charts heatmap
-                                    </a>
-                                    <a class="dropdown-item" href="pagination">
-                                        Pagination
-                                    </a>
-                                    <a class="dropdown-item" href="skeleton">
-                                        Skeleton
-                                    </a>
-                                    <a class="dropdown-item" href="tabs">
-                                        Tabs
-                                    </a>
-                                    <a class="dropdown-item" href="tables">
-                                        Tables
-                                    </a>
-                                    <a class="dropdown-item" href="carousel">
-                                        Carousel
-                                    </a>
-                                    <a class="dropdown-item" href="lists">
-                                        Lists
-                                    </a>
-                                    <a class="dropdown-item" href="typography">
-                                        Typography
-                                    </a>
-                                    <a class="dropdown-item" href="page-headers">
-                                        Page headers
-                                    </a>
-                                    <a class="dropdown-item" href="markdown">
-                                        Markdown
-                                    </a>
+                                    <Link href="charts" title="Charts"/>
+                                    <Link href="charts-heatmap" title="Charts heatmap"/>
+                                    <Link href="pagination" title="Pagination"/>
+                                    <Link href="skeleton" title="Skeleton"/>
+                                    <Link href="tabs" title="Tabs"/>
+                                    <Link href="tables" title="Tables"/>
+                                    <Link href="carousel" title="Carousel"/>
+                                    <Link href="lists" title="Lists"/>
+                                    <Link href="typography" title="Typography"/>
+                                    <Link href="page-headers" title="Page headers"/>
+                                    <Link href="markdown" title="Markdown"/>
+
                                     <div class="dropend">
                                         <a class="dropdown-item dropdown-toggle" href="#sidebar-authentication"
                                            data-bs-toggle="dropdown" role="button" aria-expanded="false">
