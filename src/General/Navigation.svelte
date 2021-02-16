@@ -159,7 +159,7 @@
                       Layout
                     </span>
                         </a>
-                        <div class="dropdown-menu">
+                        <DropdownMenu>
                             <div class="dropdown-menu-columns">
                                 <div class="dropdown-menu-column">
                                     <Link href="layout-horizontal" title="Horizontal"/>
@@ -194,7 +194,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </DropdownMenu>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="docs/index">
