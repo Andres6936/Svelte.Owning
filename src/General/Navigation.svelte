@@ -162,27 +162,13 @@
                         <div class="dropdown-menu">
                             <div class="dropdown-menu-columns">
                                 <div class="dropdown-menu-column">
-                                    <a class="dropdown-item" href="layout-horizontal">
-                                        Horizontal
-                                    </a>
-                                    <a class="dropdown-item" href="layout-vertical">
-                                        Vertical
-                                    </a>
-                                    <a class="dropdown-item" href="layout-vertical-transparent">
-                                        Vertical transparent
-                                    </a>
-                                    <a class="dropdown-item" href="layout-vertical-right">
-                                        Right vertical
-                                    </a>
-                                    <a class="dropdown-item" href="layout-condensed">
-                                        Condensed
-                                    </a>
-                                    <a class="dropdown-item" href="layout-condensed-dark">
-                                        Condensed dark
-                                    </a>
-                                    <a class="dropdown-item" href="layout-combo">
-                                        Combined
-                                    </a>
+                                    <Link href="layout-horizontal" title="Horizontal"/>
+                                    <Link href="layout-vertical" title="Vertical"/>
+                                    <Link href="layout-vertical-transparent" title="Vertical transparent"/>
+                                    <Link href="layout-vertical-right" title="Right vertical"/>
+                                    <Link href="layout-condensed" title="Condensed"/>
+                                    <Link href="layout-condensed-dark" title="Condensed dark"/>
+                                    <Link href="layout-combo" title="Combined"/>
                                 </div>
                                 <div class="dropdown-menu-column">
                                     <a class="dropdown-item" href="layout-navbar-dark">
